@@ -77,18 +77,19 @@ p{
   color:  #fff;
 }
 #navbar h1{
-  float: left;
+  
   padding-top:20px ;
 
 }
 #navbar ul{
   list-style: none;
-  float: right;
+  display: flex;
+  justify-content: right;
+  margin-right: 0;
   
 }
 #navbar ul li{
   list-style: none;
-  float: left;  
   
 }
 
@@ -103,7 +104,7 @@ p{
   color: #f7c08a;
 }
 #showcase {
-  background: url('./image_resources/showcase.jpg')
+  background: url('../cssEx/28/pexels-jeshootscom-1040157.jpg')
   no-repeat center center/cover;
   height: 600px;
 }
@@ -125,7 +126,7 @@ line-height: 1.7em;
 #home-info .info-img{
   float: left;
   width: 50%;
-  background: url('./image_resources/photo-1.jpg')no-repeat;
+  background: url('../cssEx/28/pexels-sebastian-voortman-411195.jpg')no-repeat;
   min-height: 100% ;
 }
 #home-info .info-content{

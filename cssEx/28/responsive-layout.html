@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="link">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  *{
+    
+    box-sizing: border-box;
+  }
+  .side{
+    background: blue;
+    float: left;
+    position: absolute ;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 50%; 
+  }
+  .main{
+    background: yellow;
+    float: right;
+    position: absolute ;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    right: 0;
+  }
+  @media (max-width: 1000px){
+    .main{
+      background: green;
+      position: absolute ;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+    
+  }
+
+</style>
+<body>
+  <div class="side">
+    side
+  </div>
+  <div class="main">
+main
+  </div>
+  
+</body>
+</html>
