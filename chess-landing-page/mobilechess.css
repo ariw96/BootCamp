@@ -1,8 +1,5 @@
-#navbar ul{
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  margin-right: 0;
-  height: 100vh;
-  
+#navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: right;
 }
