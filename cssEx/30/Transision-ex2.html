@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .box::after {
+        background-color: blueviolet;
+        height: 20vw;
+        width: 20vw;
+        position: absolute;
+        left: 40vw;
+        top: 15vw;
+    }
+    
+    .box {
+        content: 'jsjsj';
+        background-color: yellow;
+        height: 20vw;
+        overflow: hidden;
+        width: 20vw;
+        position: absolute;
+        right: -20vw;
+    }
+    
+    @keyframes slide {
+        0% {
+            right: 5vw;
+        }
+        50% {
+            left: 50vw;
+        }
+        100% {
+            left: 600vw;
+        }
+    }
+    
+    .box:hover {
+        animation: slide 2s linear;
+    }
+</style>
+
+<body>
+    <div class="box"></div>
+
+</body>
+
+</html>
